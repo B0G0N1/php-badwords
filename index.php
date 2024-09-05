@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Inserisci il paragrafo e la parola da censurare</h1>
-    <form action="censorship.php" method="POST">
+    <form action="censorship.php" method="GET">
         <label for="paragraph">Paragrafo:</label><br>
         <textarea name="paragraph" id="paragraph" rows="5" cols="40" required></textarea><br><br>
         
