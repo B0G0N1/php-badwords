@@ -63,8 +63,8 @@
     <!-- Titolo del form -->
     <h1>Inserisci il paragrafo e la parola da censurare</h1>
 
-    <!-- Form che invia i dati a censorship.php via GET -->
-    <form action="censorship.php" method="GET">
+    <!-- Form che invia i dati a badwords.php via GET -->
+    <form action="badwords.php" method="GET">
         <label for="paragraph">Paragrafo:</label><br>
         <textarea name="paragraph" id="paragraph" rows="5" cols="40" required></textarea><br><br>
         
